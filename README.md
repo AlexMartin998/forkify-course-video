@@ -1,27 +1,37 @@
-# Webpack Vanilla JS
+# Forkify Proyect
 
-Configuracion final de webpack 2021
+Recipe application with custom recipe uploads.
 
-### Notas:
-Actualiza el package.json:
+## Webpack Vanilla JS
+
+This configuration allows us to work with SASS.
+
+### Steps:
+
+Update package.json:
 ```
 npm i -g npm-check-updates
 npm-check-updates -u
 ```
 
-Recuerda mantener estas versiones:
+Keep these versions versions of the loaders:
 ```
 css-loader": "^5.2.2",
 css-minimizer-webpack-plugin": "^2.0.0",
 html-loader": "^1.3.2",
 ```
 
-Ahora si, reconstruir los modulos de Node.
+Rebuild node modules.
 ```
 npm install
 ```
 
-y para construir el build recuerden:
+Start live-server:
+```
+npm start
+```
+
+Build bundle:
 ```
 npm run build
 ```
