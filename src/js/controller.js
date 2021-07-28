@@ -136,10 +136,6 @@ const controlAddRecipe = async (newRecipe) => {
     }
 }
 
-const newFeature = () => {
-    console.log('Welcome to the application!');
-}
-
 const init = () => {
     searchView._query.focus();
 
@@ -150,7 +146,6 @@ const init = () => {
     recipeView.addHandlerBookmark(controlAddBookmark);
     searchView.addHandlerSearch(constrolSearchResults);
     paginationView.addHandlerClick(controlPagination);
-    newFeature();
 }
 init()
 
