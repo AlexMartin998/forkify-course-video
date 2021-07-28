@@ -31,7 +31,7 @@ Start live-server:
 npm start
 ```
 
-Build bundel:
+Build bundle:
 ```
 npm run build
 ```
